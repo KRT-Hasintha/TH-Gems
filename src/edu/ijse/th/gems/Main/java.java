@@ -4,6 +4,8 @@
  */
 package edu.ijse.th.gems.Main;
 
+import edu.ijse.th.gems.Main.view.ItemView;
+
 /**
  *
  * @author KASUN
@@ -14,7 +16,7 @@ public class java {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("hello");
+       new ItemView().setVisible(true);
     }
     
 }
